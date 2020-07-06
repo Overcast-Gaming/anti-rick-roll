@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name         Anti-RickRoll
-// @version      1
-// @description  Prevents rick rolls!
-// @author       Allink
-// @match        https://*/*
-// @match        http://*/*
-// @grant        none
-// ==/UserScript==
-
-
 function addJQuery(callback) {
   var script = document.createElement("script");
   script.setAttribute("src", "//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js");
