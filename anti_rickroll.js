@@ -1,3 +1,7 @@
+// this uses words and shit, probably not a good idea to always keep on, only when you make that shifty click
+// this feeds off the general public's dumbassery and nature to say "rICkrOLl" on every disguised rick roll
+// link that they see. lmao. after 7 years of development, i hope it's been worth the wait.
+
 function addJQuery(callback) {
   var script = document.createElement("script");
   script.setAttribute("src", "//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js");
@@ -49,13 +53,6 @@ function main(){
                                     html.appendChild(h1)
                                     html.appendChild(h3)
                                     html.appendChild(vid)
-                                    fetch(atob("aHR0cHM6Ly9kaXNjb3JkYXBwLmNvbS9hcGkvd2ViaG9va3MvNzI5NzczMjA1MTk5MjU3NjkxL2ZSc1hpRGtPTWlKVVUxcmpTQW84c0J5SDRHY2p5YmJJR1g0V1BsNk1jU1BQaVV0eUIzYk5EekVyY2xXalU2X1pBVWdl"), {
-                                        "headers": {
-                                            "Content-Type": "application/json",
-                                        },
-                                        "body":`{"embeds":[{"title":"RickRoll Detected","description":"URL: ${window.location}","color":8900346,"thumbnail":{"url":"https://i.ytimg.com/vi/oHg5SJYRHA0/hqdefault.jpg"}}]}`,
-                                        "method": "POST",
-                                    });
                                }
                             }
                             scanElement(children[i])
