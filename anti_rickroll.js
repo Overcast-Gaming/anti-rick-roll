@@ -43,16 +43,16 @@ function main(){
                                        h3.innerText = "URL: " + window.location + "\nAnti-Rickroll UserScript created by: Allink#9308"
                                     }
                                     h3.style = "text-align: center; font-size: 50px;"
-                                    var vid = document.createElement("VIDEO");
-                                    vid.src="https://github.com/allink-git/allink-git.github.io/blob/master/hitman.mp4?raw=true"
-                                    vid.autoplay = true
-                                    vid.loop = true
-                                    vid.style = "width: 30%;height: 5%; margin:auto; display: block;"
+                                    //var vid = document.createElement("VIDEO");
+                                    //vid.src="https://github.com/allink-git/allink-git.github.io/blob/master/hitman.mp4?raw=true"
+                                    //vid.autoplay = true
+                                    //vid.loop = true
+                                    //vid.style = "width: 30%;height: 5%; margin:auto; display: block;"
                                     document.appendChild(html)
                                     html.appendChild(link)
                                     html.appendChild(h1)
                                     html.appendChild(h3)
-                                    html.appendChild(vid)
+                                    //html.appendChild(vid)
                                }
                             }
                             scanElement(children[i])
